@@ -1,0 +1,7 @@
+-------------activate env---------
+.\env\Scripts\activate
+
+------------
+python main.py --train_with_features 4 --no_cude --predict true --input input.txt --model resnet-34-kinetics-cpu.pth
+
+python main.py  --train_with_features 3 --input input_videos --predict True --no_cuda --input input.txt
